@@ -39,3 +39,14 @@ Type table:
 - `refactor` - Refactoring without changing functionality
 - `test` - Adding tests
 - `chore` - Updating dependencies, configuring CI
+
+## Commits signing
+
+- user.name: first name last name
+- user.email: school email with `@stud.esdc.lt`
+
+### Example
+
+```
+Author: Uladzislau Mikhayevich <uladzislau.mikhayevich@stud.esdc.lt>
+```
