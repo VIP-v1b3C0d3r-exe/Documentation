@@ -14,3 +14,12 @@ An app for finding and planning local events: concerts, gatherings, workshops, a
 | Ivan Samal                | Backend       |
 | Aliaxandra Nerush         | Frontend      |
 | Sofya Asinskaya           | Frontend      |
+
+## Documentation Catalog
+
+- [Technical Specification](./src/technical-specifications.md)
+- [Useful Links](./src/useful-links.md)
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
