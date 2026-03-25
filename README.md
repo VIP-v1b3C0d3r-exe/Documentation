@@ -18,6 +18,7 @@ An app for finding and planning local events: concerts, gatherings, workshops, a
 ## Documentation Catalog
 
 - [Technical Specification](./src/technical-specifications.md)
+- [Architecture](./src/architecture.md)
 - [Useful Links](./src/useful-links.md)
 
 ## License
