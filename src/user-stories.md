@@ -105,8 +105,8 @@ Acceptance Criteria
 
 ## View full event details
 
-As a user
-I want to see detailed information about the event
+As a user   
+I want to see detailed information about the event   
 So I can determine if it’s right for me and decide whether to attend
 
 Acceptance criteria
@@ -122,8 +122,8 @@ Acceptance criteria
 
 ## Age and Participant Limit Restrictions
 
-As a user
-I want to see and take into account participant limit restrictions, but not see events with age restrictions
+As a user   
+I want to see and take into account participant limit restrictions, but not see events with age restrictions   
 So that I can only join events that are available to me
 
 Acceptance criteria
@@ -136,12 +136,12 @@ Acceptance criteria
 
 ## Basic Responsive Interface
 
-As a user
-I want to be able to use the app comfortably on different devices (PC, tablet, phone)
+As a user   
+I want to be able to use the app comfortably on different devices (PC, phone)   
 So I can access its features anytime and from any device
 
 Acceptance Criteria
-- The interface displays correctly on desktops, tablets, and mobile devices
+- The interface displays correctly on desktops and mobile devices
 - Responsive design (responsive design)
 - Easy navigation between main pages (map, events, profile)
 - Legible text and correct display of UI elements
@@ -150,8 +150,8 @@ Acceptance Criteria
 
 ## Preventing Participation in Overlapping Events
 
-As a user
-I want to be unable to join events with overlapping times
+As a user   
+I want to be unable to join events with overlapping times   
 To avoid scheduling conflicts
 
 Acceptance Criteria
