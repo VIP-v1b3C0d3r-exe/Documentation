@@ -6,17 +6,9 @@ Project Name - `Local Event Finder`
 
 An app for finding and planning local events: concerts, gatherings, workshops, and festivals. Users can view events on a map or in a list, filter by time, category, and participants, and sign up for upcoming events. The platform supports event creation, age and capacity restrictions, and color-coding for current and upcoming events.
 
-## Command
-
-| Contributor Name          | Role          |
-| -                         | -             |
-| Uladzislau Mikhayevich    | Backend, TL   |
-| Ivan Samal                | Backend       |
-| Aliaxandra Nerush         | Frontend      |
-| Sofya Asinskaya           | Frontend      |
-
 ## Documentation Catalog
 
+- [Project character](./src/project-character.md)
 - [Technical Specification](./src/technical-specifications.md)
 - [Architecture](./src/architecture.md)
 - [Project rules](./src/project-rules.md)
