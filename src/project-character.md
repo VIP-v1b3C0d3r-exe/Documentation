@@ -30,8 +30,11 @@ Active users interested in attending local events, such as concerts, workshops, 
 
 The project scope will be described in the user story document.
 
-
 ## Technical stack
+
+The project's technology stack is defined separately for each component and is described in detail in the corresponding repositories.
+
+This document provides only a high-level overview of the project. The system architecture is described in an [additional document](./architecture.md), including how the components interact. Detailed information about the technologies, libraries, versions, and development tools used can be found in the documentation of each specific service.
 
 ## Risks
 
