@@ -37,6 +37,15 @@ Acceptance Criteria
 - A map with event pins
 - Color-coded events (current / upcoming)
 - Clicking on a pin opens a preview of the event
+- The map automatically centers on:
+  - the selected event pin
+  - or the user’s current geolocation (if permission is granted)
+- Ability to manually set a location marker on the map
+- If multiple event pins are too close to each other:
+  - overlapping pins are handled (e.g., one of them is hidden or clustered)
+- Map data (events and pins) is cached:
+  - events remain visible when there is no internet connection
+  - cached data is used until connection is restored
 
 ## Creating an Event
 
@@ -147,6 +156,9 @@ Acceptance Criteria
 - Legible text and correct display of UI elements
 - Fast page loading
 - Basic accessibility (buttons, forms, and interactive elements work correctly)
+- Graceful behavior in low or no internet conditions:
+  - cached data is displayed when offline
+  - the user is informed about connection status
 
 ## Preventing Participation in Overlapping Events
 
