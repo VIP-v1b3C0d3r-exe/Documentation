@@ -28,7 +28,9 @@ Active users interested in attending local events, such as concerts, workshops, 
 
 ## Project Scope
 
-The project scope will be described in the user story document.
+The project scope is defined and maintained in the [User Story document](./user-stories.md), which outlines the functional requirements, expected behaviors, and key use cases of the system. It provides a structured description of features from the end-user perspective, including acceptance criteria and priorities.
+
+This document serves as the primary reference for understanding what is included in the project scope, as well as for tracking changes, refinements, and the evolution of requirements throughout the development lifecycle.
 
 ## Technical stack
 
