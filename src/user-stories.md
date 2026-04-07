@@ -2,12 +2,13 @@
 
 ## User Registration
 
+**User Story** 
 As a new user   
 I want to register in the system   
 To access the app's features
 
-Registration Requirements
-- Form with email and password
+**Acceptance Criteria**
+- Form with email, password, Date of Birth (required for age-restricted events).
 - Email validation
 - Password must be:
   - Must be at least 8 characters long.
@@ -18,22 +19,25 @@ Registration Requirements
 
 ## Log In
 
+**User Story** 
 As a registered user   
 I want to log in   
 To access my profile and events
 
-Acceptance Criteria
+**Acceptance Criteria**
 - Login form with email and password
 - Password recovery option
 - Error message for incorrect credentials
+- Log Out: A clearly visible "Log Out" button in the profile or menu that ends the session and redirects to the login/landing page.
 
 ## Viewing Events on a Map
 
+**User Story** 
 As a user   
 I want to see events on an interactive map   
 So I can easily navigate and choose events that interest me
 
-Acceptance Criteria
+**Acceptance Criteria**
 - A map with event pins
 - Color-coded events (current / upcoming)
 - Clicking on a pin opens a preview of the event
@@ -49,11 +53,12 @@ Acceptance Criteria
 
 ## Creating an Event
 
+**User Story** 
 As a user   
 I want to create my own event   
 So that other users can join it
 
-Acceptance Criteria
+**Acceptance Criteria**
 - A form with a title, description, time, and location
 - The ability to set a maximum number of participants and age restrictions
 - The ability to edit or delete the event
@@ -61,21 +66,23 @@ Acceptance Criteria
 
 ## Event Notifications
 
+**User Story** 
 As a user   
 I want to receive notifications about upcoming events I’m subscribed to   
 So I don’t miss out on interesting events
 
-Acceptance Criteria
+**Acceptance Criteria**
 - Notifications about upcoming events (email or push)
 - Ability to enable/disable notifications in the profile
 
 ## Event Filtering
 
+**User Story** 
 As a user   
 I want to filter events by category, tag, city, and time   
 To quickly find interesting events that match my preferences
 
-Acceptance Criteria
+**Acceptance Criteria**
 - Ability to select one or more event categories
 - Filtering by tags (e.g., “concert,” “workshop”)
 - Filtering by location (city, country)
@@ -85,11 +92,12 @@ Acceptance Criteria
 
 ## Personal Event List
 
+**User Story** 
 As a user   
 I want to see a list of events I’m subscribed to or have created   
 So I can easily manage my participation and keep track of upcoming events
 
-Acceptance Criteria
+**Acceptance Criteria**
 - Display all events the user is subscribed to
 - Display all events created by the user
 - Color-code current and upcoming events
@@ -100,11 +108,12 @@ Acceptance Criteria
 
 ## Quickly Join an Event
 
+**User Story** 
 As a user   
 I want to quickly join an event with a single click   
 So I don’t have to waste time on complicated steps and can confirm my attendance right away
 
-Acceptance Criteria
+**Acceptance Criteria**
 - The “Join” button is available on the event card and on the event page
 - Joining happens with a single click without any extra steps
 - After clicking, the button changes to “Unjoin”
@@ -114,11 +123,12 @@ Acceptance Criteria
 
 ## View full event details
 
+**User Story** 
 As a user   
 I want to see detailed information about the event   
 So I can determine if it’s right for me and decide whether to attend
 
-Acceptance criteria
+**Acceptance Criteria**
 - The event title is displayed
 - A detailed description is displayed
 - The date and time are listed
@@ -131,11 +141,12 @@ Acceptance criteria
 
 ## Age and Participant Limit Restrictions
 
+**User Story** 
 As a user   
 I want to see and take into account participant limit restrictions, but not see events with age restrictions   
 So that I can only join events that are available to me
 
-Acceptance criteria
+**Acceptance Criteria**
 - The event’s age restriction is displayed, but the event is not shown to users who do not meet the age requirement
 - The current number of participants and maximum capacity are displayed
 - You cannot join an event if the participant limit has been reached
@@ -145,11 +156,12 @@ Acceptance criteria
 
 ## Basic Responsive Interface
 
+**User Story** 
 As a user   
 I want to be able to use the app comfortably on different devices (PC, phone)   
 So I can access its features anytime and from any device
 
-Acceptance Criteria
+**Acceptance Criteria**
 - The interface displays correctly on desktops and mobile devices
 - Responsive design (responsive design)
 - Easy navigation between main pages (map, events, profile)
@@ -162,13 +174,36 @@ Acceptance Criteria
 
 ## Preventing Participation in Overlapping Events
 
+**User Story** 
 As a user   
 I want to be unable to join events with overlapping times   
 To avoid scheduling conflicts
 
-Acceptance Criteria
+**Acceptance Criteria**
 - The event time is checked when attempting to join
 - If the event overlaps with one already added, joining is prohibited
 - The user sees an error message (e.g., “This event overlaps with another event in your schedule”)
 - The message specifies the reason for the rejection (time conflict)
 - The system correctly handles partial time overlaps
+
+## Restricted Access for Guests
+
+**User Story**  
+As a guest  
+I want to be restricted from accessing events and map  
+So that only registered users can use core features  
+
+**Acceptance Criteria**
+- Guest users cannot access:
+  - events list
+  - map with events
+  - event details
+- If a guest tries to access restricted pages:
+  - they are redirected to login/registration page
+  - or shown a prompt to log in
+- Protected routes require authentication
+
+**Edge Cases**
+- Direct URL access to protected pages -> redirect to login
+- Expired session -> user is redirected to login
+- Token missing or invalid
