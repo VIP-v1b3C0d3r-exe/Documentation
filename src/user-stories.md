@@ -207,3 +207,23 @@ So that only registered users can use core features
 - Direct URL access to protected pages -> redirect to login
 - Expired session -> user is redirected to login
 - Token missing or invalid
+
+## Preventing Duplicate Events
+
+**User Story**
+As a user
+I want to be prevented from creating duplicate events
+So that the platform does not contain repeated or spam events
+
+**Acceptance Criteria**
+- The system checks for similar events before creation
+- Event creation is blocked if a duplicate is detected
+- Events are considered duplicates if all of the following conditions are met:
+- The distance between events is less than a defined threshold (e.g., X meters)
+- The event time is the same or overlaps
+- The event title matches (case-insensitive and normalized)
+- The user receives an error message (e.g., “A similar event already exists in this area and time”)
+- The error message explains the reason (duplicate detection)
+- The system handles edge cases:
+- Minor differences in title (e.g., extra spaces, casing)
+- Slight differences in time (configurable tolerance, e.g., ±15 minutes)
