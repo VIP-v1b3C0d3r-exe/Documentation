@@ -10,6 +10,7 @@
     - Basic Event Card (Title, Time, Location).
 - **Essential Actions**
     - Basic Create Event form (Title, Date, Description, Location, age restrictions, participant limits).
+    - Preventing Duplicate Events
     - Core "Join / Unjoin" functionality.
 - **Validation & Rules**
     - Automated enforcement of age restrictions.
