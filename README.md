@@ -15,6 +15,8 @@ An app for finding and planning local events: concerts, gatherings, workshops, a
 - [Prioritization](./src/prioritization.md)
 - [Project rules](./src/project-rules.md)
 - [Useful Links](./src/useful-links.md)
+- Demos:
+  - [Demo M2](./src/demos/demo-m2.md)
 
 ## License
 
