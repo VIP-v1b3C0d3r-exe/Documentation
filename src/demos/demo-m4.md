@@ -105,6 +105,14 @@ In the current version of the app, it is not yet possible recover password from 
 
 ![Password recovery](../../assets/demos/4/password-recovery/image.png)
 
+## Check Up
+
+- [x] Backend API работает (аутентификация, CRUD)
+- [x] Frontend подключён к API
+- [x] База данных наполнена тестовыми данными
+- [x] Основные user stories реализованы
+- [x] Код покрыт unit-тестами (минимум 50%)
+
 ## Conclusion
 
 Overall, the application is currently approximately 80% complete. Considering the current development progress, there is a high probability that the MVP will be successfully completed by the end of this course.
