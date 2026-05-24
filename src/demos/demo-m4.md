@@ -83,7 +83,7 @@ It works from PC, phone:
 
 ![Event Filtering](../../assets/demos/4/event-filtering/image.png)
 
-## Not Complited User Stories
+## Not Completed User Stories
 
 ### Quickly Join an Event
 
