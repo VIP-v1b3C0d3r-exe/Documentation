@@ -20,6 +20,7 @@ An app for finding and planning local events: concerts, gatherings, workshops, a
   - [Demo M3](./src/demos/demo-m3.md)
   - [Demo M4](./src/demos/demo-m4.md)
     - [Speech](./src/demos/demo-m4-speech.md)
+  - [Demo](./src/demos/demo-m5-speech.md)
 
 ## License
 
